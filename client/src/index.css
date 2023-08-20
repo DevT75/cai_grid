@@ -1,0 +1,27 @@
+@import "styles/fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+    margin:0;
+}
+.customScroll::-webkit-scrollbar{
+    width: 4px;
+    height: 10px;
+    /* border-radius: 60px; */
+    /* background-color: #eee; */
+  }
+  .invisibleScrollBar::-webkit-scrollbar{
+    width:0;
+    height: 0;
+    background: transparent;
+  }
+  .customScroll::-webkit-scrollbar-thumb{
+    background-color: black;
+    /* width: 4px; */
+    /* border-radius: 1px; */
+    /* height: 10px; */
+  }
